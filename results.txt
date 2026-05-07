@@ -1,0 +1,146 @@
+VAR Estimation Results:
+========================= 
+Endogenous variables: us_cinc, chn_cinc 
+Deterministic variables: const 
+Sample size: 56 
+Log Likelihood: 523.911 
+Roots of the characteristic polynomial:
+1.033 1.033 1.011 0.9656 0.9656 0.9094 0.9094 0.9076 0.9076 0.9055 0.9034 0.9034 0.8986 0.8986 0.889 0.8826 0.8826 0.8559 0.8559 0.3509
+Call:
+VAR(y = y_var, p = optimal_lag, type = "const", exogen = x_var)
+
+
+Estimation results for equation us_cinc: 
+======================================== 
+us_cinc = us_cinc.l1 + chn_cinc.l1 + us_cinc.l2 + chn_cinc.l2 + us_cinc.l3 + chn_cinc.l3 + us_cinc.l4 + chn_cinc.l4 + us_cinc.l5 + chn_cinc.l5 + us_cinc.l6 + chn_cinc.l6 + us_cinc.l7 + chn_cinc.l7 + us_cinc.l8 + chn_cinc.l8 + us_cinc.l9 + chn_cinc.l9 + us_cinc.l10 + chn_cinc.l10 + const + us_milex + us_pec + us_irst + us_tpop + us_miper + chn_milex + chn_pec + chn_irst + chn_tpop + chn_miper 
+
+               Estimate Std. Error t value Pr(>|t|)    
+us_cinc.l1    3.983e-01  1.609e-01   2.475 0.020457 *  
+chn_cinc.l1   2.138e-01  2.059e-01   1.038 0.309069    
+us_cinc.l2   -3.033e-01  1.884e-01  -1.610 0.120050    
+chn_cinc.l2  -1.790e-01  2.377e-01  -0.753 0.458340    
+us_cinc.l3    3.188e-01  1.801e-01   1.770 0.088922 .  
+chn_cinc.l3  -4.408e-01  2.612e-01  -1.688 0.103924    
+us_cinc.l4    2.342e-01  1.918e-01   1.221 0.233482    
+chn_cinc.l4   3.401e-02  2.082e-01   0.163 0.871559    
+us_cinc.l5    6.389e-03  1.710e-01   0.037 0.970486    
+chn_cinc.l5  -1.077e-01  2.072e-01  -0.520 0.607571    
+us_cinc.l6    3.851e-02  1.678e-01   0.229 0.820360    
+chn_cinc.l6   2.811e-01  2.046e-01   1.374 0.181683    
+us_cinc.l7   -1.302e-01  1.698e-01  -0.767 0.450331    
+chn_cinc.l7  -6.822e-02  2.218e-01  -0.308 0.760933    
+us_cinc.l8    1.662e-01  1.565e-01   1.062 0.298350    
+chn_cinc.l8   3.130e-03  2.519e-01   0.012 0.990186    
+us_cinc.l9   -2.484e-02  1.571e-01  -0.158 0.875627    
+chn_cinc.l9   2.525e-01  2.564e-01   0.985 0.334295    
+us_cinc.l10   3.939e-01  1.283e-01   3.069 0.005109 ** 
+chn_cinc.l10 -1.173e-01  2.157e-01  -0.544 0.591251    
+const        -3.144e-01  1.080e-01  -2.913 0.007440 ** 
+us_milex      9.837e-12  4.530e-11   0.217 0.829859    
+us_pec       -4.436e-08  1.213e-08  -3.657 0.001188 ** 
+us_irst       2.915e-07  9.285e-08   3.139 0.004310 ** 
+us_tpop       4.506e-07  6.498e-07   0.693 0.494445    
+us_miper      2.143e-05  5.489e-06   3.905 0.000632 ***
+chn_milex     7.945e-11  6.587e-11   1.206 0.239014    
+chn_pec      -7.182e-09  7.981e-09  -0.900 0.376754    
+chn_irst     -3.688e-08  4.839e-08  -0.762 0.453080    
+chn_tpop      2.318e-07  1.051e-07   2.205 0.036882 *  
+chn_miper     6.350e-08  3.958e-06   0.016 0.987327    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.003837 on 25 degrees of freedom
+Multiple R-Squared: 0.9892,	Adjusted R-squared: 0.9762 
+F-statistic: 76.09 on 30 and 25 DF,  p-value: < 2.2e-16 
+
+
+Estimation results for equation chn_cinc: 
+========================================= 
+chn_cinc = us_cinc.l1 + chn_cinc.l1 + us_cinc.l2 + chn_cinc.l2 + us_cinc.l3 + chn_cinc.l3 + us_cinc.l4 + chn_cinc.l4 + us_cinc.l5 + chn_cinc.l5 + us_cinc.l6 + chn_cinc.l6 + us_cinc.l7 + chn_cinc.l7 + us_cinc.l8 + chn_cinc.l8 + us_cinc.l9 + chn_cinc.l9 + us_cinc.l10 + chn_cinc.l10 + const + us_milex + us_pec + us_irst + us_tpop + us_miper + chn_milex + chn_pec + chn_irst + chn_tpop + chn_miper 
+
+               Estimate Std. Error t value Pr(>|t|)    
+us_cinc.l1    2.494e-01  1.241e-01   2.009  0.05540 .  
+chn_cinc.l1   4.117e-01  1.589e-01   2.591  0.01574 *  
+us_cinc.l2    1.177e-01  1.453e-01   0.810  0.42573    
+chn_cinc.l2   7.549e-02  1.833e-01   0.412  0.68405    
+us_cinc.l3    6.947e-02  1.389e-01   0.500  0.62143    
+chn_cinc.l3   3.158e-01  2.015e-01   1.567  0.12970    
+us_cinc.l4   -2.436e-02  1.480e-01  -0.165  0.87054    
+chn_cinc.l4  -4.415e-02  1.606e-01  -0.275  0.78566    
+us_cinc.l5   -2.129e-01  1.319e-01  -1.614  0.11901    
+chn_cinc.l5   8.177e-02  1.598e-01   0.512  0.61338    
+us_cinc.l6    1.353e-01  1.295e-01   1.045  0.30590    
+chn_cinc.l6   1.240e-01  1.578e-01   0.786  0.43934    
+us_cinc.l7    3.582e-02  1.310e-01   0.273  0.78678    
+chn_cinc.l7  -3.359e-01  1.711e-01  -1.963  0.06086 .  
+us_cinc.l8   -1.977e-02  1.207e-01  -0.164  0.87126    
+chn_cinc.l8   1.036e-01  1.943e-01   0.533  0.59866    
+us_cinc.l9   -7.220e-02  1.212e-01  -0.596  0.55671    
+chn_cinc.l9  -4.522e-01  1.978e-01  -2.286  0.03102 *  
+us_cinc.l10  -8.157e-02  9.900e-02  -0.824  0.41775    
+chn_cinc.l10 -1.608e-01  1.664e-01  -0.966  0.34311    
+const         7.057e-02  8.328e-02   0.847  0.40482    
+us_milex      5.841e-11  3.495e-11   1.672  0.10710    
+us_pec        1.495e-08  9.356e-09   1.598  0.12258    
+us_irst      -3.396e-09  7.163e-08  -0.047  0.96256    
+us_tpop      -3.253e-07  5.013e-07  -0.649  0.52225    
+us_miper     -6.470e-06  4.234e-06  -1.528  0.13906    
+chn_milex     1.004e-10  5.081e-11   1.976  0.05930 .  
+chn_pec      -2.023e-08  6.157e-09  -3.286  0.00301 ** 
+chn_irst      1.748e-07  3.733e-08   4.684 8.45e-05 ***
+chn_tpop      4.378e-08  8.110e-08   0.540  0.59410    
+chn_miper     3.080e-06  3.053e-06   1.009  0.32281    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.00296 on 25 degrees of freedom
+Multiple R-Squared: 0.9975,	Adjusted R-squared: 0.9944 
+F-statistic: 328.3 on 30 and 25 DF,  p-value: < 2.2e-16 
+
+
+
+Covariance matrix of residuals:
+           us_cinc  chn_cinc
+us_cinc  1.473e-05 6.321e-07
+chn_cinc 6.321e-07 8.763e-06
+
+Correlation matrix of residuals:
+         us_cinc chn_cinc
+us_cinc  1.00000  0.05564
+chn_cinc 0.05564  1.00000
+
+
+ AIC(model_var)
+[1] -923.8214
+
+#--------Casuality Tests--------
+$Granger
+
+	Granger causality H0: chn_cinc do not Granger-cause us_cinc
+
+data:  VAR object model_var
+F-Test = 0.89262, df1 = 10, df2 = 50, p-value = 0.5465
+
+
+$Instant
+
+	H0: No instantaneous causality between: chn_cinc and us_cinc
+
+data:  VAR object model_var
+Chi-squared = 0.17285, df = 1, p-value = 0.6776
+
+
+	Granger causality H0: us_cinc do not Granger-cause chn_cinc
+
+data:  VAR object model_var
+F-Test = 1.5189, df1 = 10, df2 = 50, p-value = 0.1605
+
+
+$Instant
+
+	H0: No instantaneous causality between: us_cinc and chn_cinc
+
+data:  VAR object model_var
+Chi-squared = 0.17285, df = 1, p-value = 0.6776
